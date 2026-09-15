@@ -107,7 +107,7 @@ const parseResume = asyncHandler(async (req, res) => {
     aiAvailable: ai.available,
     aiMessage: ai.available ? null : aiService.AI_UNAVAILABLE_MESSAGE,
     reviewRequired: true,
-    unusedSlugCount: bySlug.size,
+    
   });
 });
 
